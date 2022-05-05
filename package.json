@@ -1,0 +1,26 @@
+{
+  "name": "mysqlcli",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000y\u0000s\u0000q\u0000l\u0000c\u0000l\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MickeyDribble/mysqlcli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MickeyDribble/mysqlcli/issues"
+  },
+  "homepage": "https://github.com/MickeyDribble/mysqlcli#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0",
+    "yargs": "^17.4.1"
+  }
+}
