@@ -9,8 +9,9 @@ const Movie = sequelize.define("Movie", {
     },
     actor: {
         type: DataTypes.STRING,
-        defaultValue: "Not specified",
+        defaultValue: "Not Specified",
     },
 });
 
 module.exports = Movie;
+
