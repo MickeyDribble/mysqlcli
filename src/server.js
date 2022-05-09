@@ -3,6 +3,8 @@ const { sequelize } = require("./db/connection");
 //Imports for crud functions
 const { addMovie, listMovie, deleteMovie, updateMovie } = require("./movie/movieMethods");
 const { addDirector, listDirector, deleteDirector, updateDirector } = require("./director/directorMethods");
+const Movie = require("./movie/movieTable")
+const Director = require("./director/directorTable")
 
 const app = async (yargsObj) => {
     try {
@@ -50,6 +52,9 @@ const app = async (yargsObj) => {
         console.log(error)
     }
 } 
+
+Director.hasMany(Movie);
+Movie.belongsTo(Director);
 
 
 
